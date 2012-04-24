@@ -1,0 +1,250 @@
+@charset "UTF-8";
+body {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+a:link {
+	color: #0A438D;
+	text-decoration: underline;
+}
+a:visited {
+	color: #0A438D;
+	text-decoration: underline;
+}
+a:hover {
+	color: #CC0033;
+	text-decoration: none;
+}
+a:active {
+	color: #0A438D;
+	text-decoration: underline;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	padding: 10px;
+	width: 820px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #003366;
+}
+#header {
+	background-image: url(img/admin_header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 785px;
+	margin-bottom: 12px;
+	height: 10px;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #868686;
+	text-align: right;
+	padding-bottom: 30px;
+	padding-top: 89px;
+	padding-right: 35px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#header a:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#header a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#header a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+#container {
+	width: 820px;
+}
+#leftcolumn {
+	float: left;
+	width: 190px;
+	margin-bottom: 10px;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #868686;
+}
+#rightcolumn {
+	float: right;
+	width: 610px;
+	margin-bottom: 10px;
+}
+#base {
+	clear: both;
+	height: 30px;
+	background-color: #868686;
+	color: #333333;
+	text-align: right;
+	font-size: 9px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+#spacer {
+	clear: both;
+	height: 10px;
+}
+.bluespace {
+	height: 20px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #C0C0C0;
+}
+.form {
+	margin: 0px;
+}
+input, select, radio, checkbox, textarea {
+	font-size: 11px;
+	color: #0A438D;
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+}
+.butt {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0A438D;
+	border: 1px solid #05254F;
+}
+.button {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0A438D;
+	border: 1px solid #05254F;
+}
+.messagebox {
+	border: 1px solid #CC9900;
+	background-color: #FFCC66;
+	color: #000000;
+}
+.messagepad {
+	padding: 6px;
+}
+.imgborder {
+	border: 1px dotted #868686;
+	padding: 4px;
+}
+.dottedline {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+}
+.divframe {
+	margin-bottom: 5px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #666666;
+	border-bottom-color: #666666;
+	margin-top: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.div_blue_border {
+	border-bottom-width: 7px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.div_blue_border div {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666666;
+	padding: 3px;
+}
+.whitetxt {
+	color: #FFFFFF;
+}
+.bluetxt {
+	color: #0A438D;
+}
+.redtxt {
+	color: #CC0033;
+}
+.greytxt {
+	color: #666666;
+}
+.greyTxt {
+	color: #1F1F1F;
+}
+.txt15 {
+	font-size: 15px;
+}
+
+/* 
+	for use in editor  
+*/
+
+.normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-size: 11px;
+}
+.boldblue {
+	color: #0A438D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-weight : bolder;
+	font-size: 13px;
+}
+.boldred {
+	color: #CC0033;
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-weight : bolder;
+	font-size: 13px;
+}
+h1 {
+	font-size: 22px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 15px;
+}
+h5 {
+	font-size: 12px;
+}
+h6 {
+	font-size: 10px;
+}
+#rank {
+	font-size: 9px;
+	color: #0A438D;
+	height: 11px;
+	width: 17px;
+}
+ul#sortableList {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+ul#sortableList li {
+	cursor: move;
+	border: 1px dotted #0A438D;
+	background-color: #FFFFFF;
+	color: #1C1C1C;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	background-image: url(img/corner.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

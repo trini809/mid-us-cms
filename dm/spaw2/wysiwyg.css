@@ -1,0 +1,54 @@
+body
+{
+	background-color: #ffffff;
+}
+tr,td, table {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-size: 11px;
+}
+.bluetxt {
+	color: #0A438D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-weight : normal;
+}
+.boldblue {
+	color: #0A438D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-weight : bolder;
+}
+.boldred {
+	color: #7c2e42;
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+  	font-weight : bolder;
+}
+h1 {
+	font-size: 22px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 15px;
+}
+h5 {
+	font-size: 12px;
+}
+h6 {
+	font-size: 10px;
+}
+.imgborder {
+	padding: 3px;
+	border: 1px dotted #9BAA9F;
+}
+img {
+	padding: 3px;
+	border: 1px dotted #9BAA9F;
+}

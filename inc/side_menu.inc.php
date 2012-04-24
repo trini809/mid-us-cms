@@ -1,19 +1,25 @@
+<?php
 // ---------------------------------------------------------------------//
 // Please leave this message in place, no one will see this. It is      //
-// meant for developers. This script is copyright 2012 by MidniteHour   //
-// and solely developed for MIDNITEHOUR INTERNET DEVELOPEMENT.			//
+// meant for developers. This script is copyright 2007 by MidniteHour   //
+// and solely developed for DEMONSTRATION.								//
 //																		//
 // You are not allowed to change this script in any way nor distribute	// 
-// this script without the written permission from MidniteHour. 		//
+// this script without the	written permission from MidniteHour. 		//
 //                                                                      //
 //                                                                      //
 // Author :  trini809 ; contact: trini809@midnitehour.com               //
 // Web address : www.midnitehour.com                                    //
-// File : README		                                                //
+// File : people_menu.inc.php                                           //
 //                                                                      //
 // ---------------------------------------------------------------------//
 
-This is a simple CMS system by MidniteHour that is titled "MUCKA", we're building this as an 
-open-source project and will be absolutely FREE for public use. No commercial use is allowed for
-this project, if you're interested in a commercial version of this software please contact us at
-MidniteHour.
+	print '<div id="leftblockmenu">
+			<div id="leftnavhead">Company Name</div>
+			<div id="my_menu" class="sdmenu">';
+			
+	
+			print '</div>';
+	
+	print '</div></div>';
+?>
