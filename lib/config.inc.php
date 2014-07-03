@@ -18,7 +18,7 @@
 $db_host = "localhost";								// Location of the database
 $db_user = "web";									// Username for the db access
 $db_pass = "wwct67h8";								// Password for the db access
-$db_name = "mucka";								// Name of the database
+$db_name = "mucka";									// Name of the database
 $dbext   = "mid_";									// DB table prefix
 
 // setup a few vars
